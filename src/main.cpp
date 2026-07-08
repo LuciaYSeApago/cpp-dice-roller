@@ -1,17 +1,18 @@
 #include <iostream>
+
+#include "ui.hpp"
+#include "dice.hpp"
+
 using namespace std;
 
 int main()
 {
-    cout << "✿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✿\n\n";
-
-    cout << "            🎲 Dice Roller\n\n";
-
-    cout << "               ݁₊ ⊹🌸⊹ ₊ ݁\n\n";
-
-    cout << "✿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✿\n\n";
-
+    printHeader();
     cout << "Press ENTER to roll the dice.\n";
 
+    // Wait for user input
+    cin.get();
+
+    cout << "\nYou rolled a " << rollDice() << "!\n";
     return 0;
 }

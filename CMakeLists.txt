@@ -7,4 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
+    src/dice.cpp
+    src/ui.cpp
 )
+
+target_include_directories (${PROJECT_NAME} PRIVATE include)
