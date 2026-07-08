@@ -10,11 +10,11 @@
 
 <div align="center">
 
-# ⌞📎⌝ Project Name
+# ⌞📎⌝ Dice Roller
 
-### Category Symbol • Modern C++ • BloomCode
+### ݁₊ ⊹🌸⊹ ₊ ݁ • Modern C++ • BloomCode
 
-*One sentence describing the project.*
+*Cozy terminal dice rolling application using C++.*
 
 Part of the **🌸 BloomCode** collection.
 
@@ -46,18 +46,19 @@ Explain:
 
 ## 🧠 Concepts Practiced
 
-- Concept
-- Concept
-- Concept
-- Concept
+- Variables
+- Functions
+- User input
+- Loops
+- Random number generation
 
 ---
 
 ## ⌞📃⌝ Features
 
-- ✨ Feature
-- ✨ Feature
-- ✨ Feature
+- Roll a six-sided die
+- Roll again without restarting
+- Exit the application
 
 ---
 
@@ -124,9 +125,11 @@ project-name/
 
 ## ⌞🚀⌝ Future Ideas
 
-- [ ] Feature
-- [ ] Feature
-- [ ] Feature
+- [ ] Multiple dice
+- [ ] Different dice (D4, D8, D10...)
+- [ ] Roll history
+- [ ] Statistics
+- [ ] Colored terminal output
 
 ---
 
