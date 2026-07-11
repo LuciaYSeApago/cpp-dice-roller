@@ -8,11 +8,18 @@ using namespace std;
 int main()
 {
     printHeader();
-    cout << "Press ENTER to roll the dice.\n";
+    
+    bool playAgain = true;
 
-    // Wait for user input
-    cin.get();
+    while (playAgain)
+    {
+        waitForEnter();
 
-    cout << "\nYou rolled a " << rollDice() << "!\n";
+        int result = rollDice();
+
+        printRollResult();
+
+        playAgain = askPlayAgain();
+    }
     return 0;
 }
