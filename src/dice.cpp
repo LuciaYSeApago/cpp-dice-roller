@@ -1,6 +1,7 @@
 #include <random>
 #include <limits>
 #include "dice.hpp"
+#include "ui.hpp"
 
 using namespace std;
 
@@ -17,4 +18,20 @@ int rollDice()
 
     // return a random number between 1 and 6
     return diceDistribution(gen); 
+}
+
+void playGame()
+{
+    bool playAgain = true;
+
+    while (playAgain)
+    {
+        waitForEnter();
+
+        int result = rollDice();
+
+        printRollResult(result);
+
+        playAgain = askPlayAgain();
+    }
 }

@@ -7,19 +7,32 @@ using namespace std;
 
 int main()
 {
-    printHeader();
     
     bool playAgain = true;
 
     while (playAgain)
     {
-        waitForEnter();
+        clearScreen();
 
-        int result = rollDice();
+        printHeader();
 
-        printRollResult();
+        int option = showMenu();
 
-        playAgain = askPlayAgain();
+        switch (option)
+        {
+            case 1:
+                playGame();
+                break;
+
+            case 2:
+                playAgain = false;
+                break;
+
+            default:
+                cout << "\nInvalid option.\n";
+                break;
+        }
+
+        
     }
-    return 0;
 }
