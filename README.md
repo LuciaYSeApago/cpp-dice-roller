@@ -12,7 +12,8 @@
 
 # ⌞📎⌝ Dice Roller
 
-### ݁₊ ⊹🌸⊹ ₊ ݁ • Modern C++ • BloomCode
+### ݁₊ ⊹🌸⊹ ₊ ݁ 
+*• Modern C++ • BloomCode*
 
 *Cozy terminal dice rolling application using C++.*
 
@@ -21,52 +22,97 @@ Part of the **🌸 BloomCode** collection.
 </div>
 
 ---
+<p align="center">
 
-| 📌 | |
-|:---|:---|
-| **Language** | C++23 |
-| **Build System** | CMake |
-| **Platform** | Linux / WSL |
-| **Difficulty** | ⭐ Beginner |
-| **Status** | 🌱 In Progress |
+| ✿                |                   |
+|:-----------------|:-------------------|
+| **Language**     | C++23              |
+| **Build System** | CMake              |           
+| **Platform**     | Linux / WSL        |
+| **Difficulty**   | ⭐ Beginner        |
+| **Status**       | ✅ Complete (v1.0) |
 
+</div>
 ---
 
 # 🌸 About
 
-Describe the project in one or two paragraphs.
+Dice Roller is a cozy terminal application written in modern C++ that simulates
+rolling different tabletop dice.
 
-Explain:
+The project was created as a beginner-friendly exercise to practice the
+fundamentals of C++ while building a pretty and polished console application.
 
-- Why you built it.
-- What problem it solves.
-- What you wanted to learn.
+During development I focused on writing modular code, separating the user
+interface from the game logic, handling user input safely, and improving the
+overall user experience with colors, ASCII art and clean menus.
 
 ---
+## 🎨 Color Palette
 
-## 🧠 Concepts Practiced
+<p align="center">
+┌─────────────────────────────────────────────┐
+│              Bloom Palette                  │
+│                                             │
+│            Pink    #FFB3D9                │
+│            Lilac   #CDB4FF                │
+│            Mint    #B8F2E6                │
+│            Cream   #FFF7E6                │
+│                                             │
+└─────────────────────────────────────────────┘
 
-- Variables
-- Functions
-- User input
-- Loops
-- Random number generation
+| Role    | Color                                                                                                             |
+|---------|-------------------------------------------------------------------------------------------------------------------|
+| Header  | <span style="display:inline-block;width:20px;height:20px;background:#FF9FCF;border-radius:4px;"></span> `#FF9FCF` |
+| Menus   | <span style="display:inline-block;width:20px;height:20px;background:#C8A2FF;border-radius:4px;"></span> `#C8A2FF` |
+| Success | <span style="display:inline-block;width:20px;height:20px;background:#A8E6CF;border-radius:4px;"></span> `#A8E6CF` |
+| Options | <span style="display:inline-block;width:20px;height:20px;background:#FFF6E5;border-radius:4px;"></span> `#FFF6E5` |
+
+</div>
+
+## 🌻 Concepts Practiced
+
+- Functions and modular programming
+- Header and source file separation
+- Random number generation (`<random>`)
+- Input validation
+- Loops and control flow
+- Switch statements
+- ANSI terminal colors
+- ASCII art
+- Session statistics
+- CMake project structure
 
 ---
 
 ## ⌞📃⌝ Features
 
-- Roll a six-sided die
-- Roll again without restarting
-- Exit the application
+- 🎲 Roll D4, D6, D8, D10, D12 and D20 dice
+- 🌸 Colorful terminal interface
+- 🎲 ASCII dice representation for D6
+- 🌸 Live session statistics
+- 🎲 Roll multiple times without restarting
+- 🌸 Input validation
+- 🎲 Clear terminal between menus
+- 🌸 Rolling animation
 
 ---
 
-## ⌞📸⌝ Preview
-
 <p align="center">
 
-<img src="screenshots/main-menu.png" width="700"/>
+## ⌞📸⌝ Previews
+
+### Main Menu
+
+<img src="screenshots/app-menus.png" width="700"/>
+
+### Dice Selection
+
+<img src="screenshots/result.png" width="700"/>
+
+### Rolling Result
+
+<img src="screenshots/statistics.png" width="700"/>
 
 </p>
 
@@ -83,7 +129,7 @@ Explain:
 ### Clone
 
 ```bash
-git clone https://github.com/LuciaYSeApago/project-name.git
+git clone https://github.com/LuciaYSeApago/cpp-dice-roller.git
 ```
 
 ### Build
@@ -100,7 +146,7 @@ cmake --build .
 ### Run
 
 ```bash
-./ProjectName
+./DiceRoller
 ```
 
 ---
@@ -111,7 +157,6 @@ cmake --build .
 project-name/
 │
 ├── assets/
-├── docs/
 ├── include/
 ├── screenshots/
 ├── src/
