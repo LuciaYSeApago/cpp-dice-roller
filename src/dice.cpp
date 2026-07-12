@@ -38,7 +38,7 @@ void playGame()
             return;
         }
 
-        cout <<"\n El usuario ha elegido un dado de "<< sides << " caras.\n\n";
+        cout <<"\n You've chosen a D"<< sides << " dice.\n\n";
 
         waitForEnter();
 

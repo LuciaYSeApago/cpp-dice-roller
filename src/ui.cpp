@@ -233,67 +233,67 @@ void printDiceFace(int value)
        
         case 1:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n";
-            "│       │\n";
-            "│   ●   │\n";
-            "│       │\n";
-            "╰───────╯\n\n";
+            
+            cout <<"╭───────╮\n";
+            cout <<"│       │\n";
+            cout <<"│   ●   │\n";
+            cout <<"│       │\n";
+            cout <<"╰───────╯\n\n";
             cout << Color::RESET;
             break;
 
         case 2:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n";
-            "│ ●     │\n";
-            "│       │\n";
-            "│     ● │\n";
-            "╰───────╯\n\n";
+            
+            cout <<"╭───────╮\n";
+            cout <<"│ ●     │\n";
+            cout <<"│       │\n";
+            cout <<"│     ● │\n";
+            cout <<"╰───────╯\n\n";
             cout << Color::RESET;
             break;
 
         case 3:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n";
-            "│ ●     │\n";
-            "│   ●   │\n";
-            "│     ● │\n";
-            "╰───────╯\n\n";  
+            
+            cout <<"╭───────╮\n";
+            cout <<"│ ●     │\n";
+            cout <<"│   ●   │\n";
+            cout <<"│     ● │\n";
+            cout <<"╰───────╯\n\n";  
             cout << Color::RESET;
             break;
 
         case 4:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n";
-            "│ ●   ● │\n";
-            "│       │\n";
-            "│ ●   ● │\n";
-            "╰───────╯\n\n";
+            
+            cout <<"╭───────╮\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"│       │\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"╰───────╯\n\n";
             cout << Color::RESET;
             break;
             
         case 5:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n"
-            "│ ●   ● │\n"
-            "│   ●   │\n"
-            "│ ●   ● │\n"
-            "╰───────╯\n\n";
+            
+            cout <<"╭───────╮\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"│   ●   │\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"╰───────╯\n\n";
             cout << Color::RESET;
             break;
             
         case 6:
             cout <<Color::LILAC;
-            cout <<
-            "╭───────╮\n"
-            "│ ●   ● │\n"
-            "│ ●   ● │\n"
-            "│ ●   ● │\n"
-            "╰───────╯\n\n";
+        
+            cout <<"╭───────╮\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"│ ●   ● │\n";
+            cout <<"╰───────╯\n\n";
             cout << Color::RESET;
             break;
             
