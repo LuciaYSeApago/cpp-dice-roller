@@ -16,7 +16,7 @@ int main()
 
         printHeader();
 
-        int option = showMenu();
+        int option = showMainMenu();
 
         switch (option)
         {

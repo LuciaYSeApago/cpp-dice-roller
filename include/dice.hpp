@@ -1,4 +1,4 @@
 #pragma once
 
-int rollDice();
+int rollDice(int sides);
 void playGame();
