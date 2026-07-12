@@ -51,15 +51,6 @@ overall user experience with colors, ASCII art and clean menus.
 ## 🎨 Color Palette
 
 <p align="center">
-┌─────────────────────────────────────────────┐
-│              Bloom Palette                  │
-│                                             │
-│            Pink    #FFB3D9                │
-│            Lilac   #CDB4FF                │
-│            Mint    #B8F2E6                │
-│            Cream   #FFF7E6                │
-│                                             │
-└─────────────────────────────────────────────┘
 
 | Role    | Color                                                                                                             |
 |---------|-------------------------------------------------------------------------------------------------------------------|
@@ -104,15 +95,15 @@ overall user experience with colors, ASCII art and clean menus.
 
 ### Main Menu
 
-<img src="screenshots/app-menus.png" width="700"/>
+<img src="screenshots/app-menus.jpeg" width="700"/>
 
 ### Dice Selection
 
-<img src="screenshots/result.png" width="700"/>
+<img src="screenshots/result.jpeg" width="700"/>
 
 ### Rolling Result
 
-<img src="screenshots/statistics.png" width="700"/>
+<img src="screenshots/statistics.jpeg" width="700"/>
 
 </p>
 
